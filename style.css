@@ -1,0 +1,118 @@
+#grisfonce{
+    background-color: #484848 !important;
+}
+.navbar .navbar-nav .nav-item .liengris, .navbar.navbar-expand-lg .navbar-brand.liengris, footer.row.justify-content-around p.col-3 .liengris{
+    color:#C8C8C8;
+}
+header .navbar.navbar-expand-lg .navbar-toggler{
+    border-color: #C8C8C8;
+}
+header .navbar.navbar-expand-lg .navbar-toggler.navbar-toggler-icon{
+    color: #606060;
+}
+.nav-pills .nav-item .liengris{
+    color: #888888;
+    margin: 10px;
+}
+.nav-pills .nav-item .active{
+    color: #C8C8C8;
+    background-color:#606060;
+}
+
+#petit{
+    font-size: 20px;
+}
+#droite{
+    text-align: right;
+}
+.table .table-gris-s, .table .table-gris-l td{
+    border : 2px solid;
+    border-color : #484848;
+}
+.table .table-gris-s{
+    background-color: #606060;
+    color: #C8C8C8;
+}
+.table .table-gris-l:nth-child(odd){
+    background-color:#C8C8C8;
+}
+#rond{
+    border-radius: 50%;
+}
+.card .media .media-body{
+    text-align: right;
+}
+.card .media .media-body span {
+    color: #C8C8C8;
+}
+#center{
+    text-align: center;
+}
+.symbole{
+    position: absolute;
+    padding-top:9px;
+    padding-bottom: 9px;
+    z-index: 2;
+    left: 9%;
+}
+.form{
+    position: relative;
+}
+input, textarea{
+    border : 1px solid;
+    margin : 5px;
+} 
+select{
+    margin: 5px;
+}
+
+footer{
+    background-color: #484848;
+    color: #C8C8C8 ;
+    margin-top : 15px;
+}
+footer li {
+    list-style-type: none; 
+}
+.row .media .mr-3{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.row .card .card-img-top{
+    position: relative;
+    opacity : 0.8;
+}
+.row .card .reward{
+    position: absolute;
+    background-color: rgba(150, 150, 150, 0.9);
+    color:white;
+    border-radius: 5px;
+    font-size: 20px;
+    left : 12%;
+    top : 5%;
+    text-align : center;
+    padding : 5px 10px;
+}
+.row .card .dead{
+    position:absolute;
+    font-size: 50px;
+    border-radius: 10px;
+    left : 30%;
+    top : 20%;
+    background-color: rgba(150, 150, 150, 0.9);
+
+}
+.row .card .card-img-top:hover{
+    opacity: 1;
+}
+.row .card .img-dead:hover{
+    opacity: .1;
+}
+.row .card .card-img-top:hover + .reward{
+    font-size: 40px;
+    left : 10%;
+    top : 5%;
+    height: 50%;
+    width: 80%;
+}
