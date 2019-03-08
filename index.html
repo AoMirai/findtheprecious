@@ -10,27 +10,53 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   </head>
-<body>
+<body class="container">
 <header>
-  <nav  id="grisfonce" class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand liengris" href="#">FindThePrecious.com</a>
+  <nav  id="grisfonce" class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-right">
+    <img class="navbar-brand liengris" href="#" src="integration_maquette_finale/logo.png" alt="FindThePrecious.com">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse " id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link active liengris" href="#">Fellows</a></li>
+        <li class="separateur"> | </li>
         <li class="nav-item"><a class="liengris nav-link " href="#thering">The Ring</a></li>
-        <li class="nav-item"><a class="liengris nav-link " href="#reward">Get my reward</a></li>
-        <li class="nav-item"><a class="liengris nav-link " href="#hunter">Best hunter</a></li>
-        <li class="nav-item"><a class="liengris nav-link " href="#army">Join the army</a></li>
-        <li class="nav-item"><a class="liengris nav-link " href="#contact">Contact us</a></li>
+        <li class="separateur"> | </li>
+        <li class="nav-item"><a class="liengris nav-link " href="#reward">Reward</a></li>
+        <li class="separateur"> | </li>
+        <li class="nav-item"><a class="liengris nav-link " href="#hunter">Hunter</a></li>
+        <li class="separateur"> | </li>
+        <li class="nav-item"><a class="liengris nav-link " href="#army">Join</a></li>
+        <li class="separateur"> | </li>
+        <li class="nav-item"><a class="liengris nav-link " href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 </header>
 <section id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active align-middle">
+      <img class="d-block w-100 " src="integration_maquette_finale/dark_vador-recarde.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <p class="policepb gros dark_vador">sauron is a very good bro,</p>
+        <p class="policepb moins-gros dark_vador">please help him to find the ring !&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- d.v.</p>
+      </div>
+    </div>
+    <div class="carousel-item align-middle ">
+      <img class="d-block w-100 " src="integration_maquette_finale/vol4.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <p class="policepb gros VDM">Fellows are the problem,</p>
+        <p class="policepb moins-gros VDM">i'm sure you can kill them&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- voldemort</p>
+      </div>
+    </div>
+    <div class="carousel-item align-middle ">
+      <img class="d-block w-100 " src="integration_maquette_finale/joker2.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <p class="policepb gros JOKER">life is borring whitout sauron,</p>
+        <p class="policepb moins-gros JOKER">protect him joining his army !&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - joker</p>
+      </div>
+    </div>
+    <!--<div class="carousel-item">
       <img class="d-block w-100" src="https://coverfiles.alphacoders.com/466/46648.jpg" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>Danrerous fellowship try to destroy the ring</h5>
@@ -48,9 +74,9 @@
       <img class="d-block w-100" src="https://www.wallpaperpimper.com/wallpapers/2ii60v/twitter/volcano.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>This is Mount Doom</h5>
-        <p>His fire can destroy the ring. Dont let the fellows near it !</p>
+        <p>His fire can destroy the ring. Dont let the fellows near it !</p> 
       </div>
-    </div>
+    </div> !-->
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -61,38 +87,101 @@
     <span class="sr-only">Next</span>
   </a>
 </section>
-<main class="container">
-<section>
-  <div class="row d-flex justify-content-start">
-    <h2 id = "fellows">
-    Fellows wanted dead <span id="petit">(or alive if you want to eat them later)</span>
-    </h2>
+
+<main >
+
+<section class=" container" id="fontclair">
+
+  <div class="row d-flex justify-content-start ">
+    <h2 id = "fellows" class="policeaniron gras">
+      <span class="symboleoblique symboleelfe">i</span><span class="symboleelfe">j</span>
+      <span class="enbas">Fellows wanted dead</span><span class="enbas" id="petit"> (or alive if you want to eat them later)</span>
+      <span class="symboleoblique symboleelfe">i</span><span class="symboleelfe">j</span>
+    </h2> 
   </div>
-  <div class="row d-flex justify-content-center">
-    <ul class="nav nav-pills nav-fill ">
-      <li class="nav-item"><a class="liengris nav-link active" href="">Most wanted</a></li>
-      <li class="nav-item"><a class="liengris nav-link" href="">Most dangerous</a></li>
-      <li class="nav-item"><a class="liengris nav-link" href="">Already captured</a></li>
+
+  <div class="row d-flex justify-content-center policeaniron">
+    <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+      <li class="nav-item">
+        <a class="liengris nav-link" href="#fellows" data-toggle="pill" role="tab" aria-selected="false">
+          <span class="symboleelfe2">b</span><span> Most wanted </span><span class="symboleelfe2">b</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="liengris nav-link active" href="#fellows" data-toggle="pill" role="tab" aria-selected="true">
+          <span class="symboleelfe2">b</span><span> Most dangerous </span><span class="symboleelfe2">b</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="liengris nav-link" href="#fellows" data-toggle="pill" role="tab" aria-selected="false">
+          <span class="symboleelfe2">b</span><span> Already captured </span><span class="symboleelfe2">b</span>
+        </a>
+      </li>
     </ul>
   </div>
-  <div class="row d-flex justify-content-around">
-    <div class="card col-lg-4 col-md-5 col-sm-10">
+
+  <div class="row d-flex justify-content-around policepb container">
+      <div class="card card-img"> 
+
+        <div class="contenu-img">
+          <img class="card-img-top" src="integration_maquette_finale/gandalf.png" alt=""/>
+        </div>
+
+        <p class="reward">reward<br><span class="orange">1000</span> golden coins</p>
+
+        <div class="card-body card-body-img">
+          <h5 class="card-title card-title-img">Gandalf</h5>
+          <p class="card-text">a very dangerous wisard, balrog killer&nbsp;...</p>
+        </div>
+
+      </div>
+      <div class="card card-img">
+
+          <div class="contenu-img">
+            <img class="card-img-top" src="integration_maquette_finale/aragorn.png" alt=""/>
+          </div> 
+
+          <p class="reward">reward<br><span class="orange">1000</span> golden coins</p>
+
+          <div class="card-body card-body-img">
+            <h5 class="card-title card-title-img">Aragorn</h5>
+            <p class="card-text">sauron's finger says him his sword is dangerous...</p>
+          </div>
+
+      </div>
+      <div class="card card-img">
+        <div class="contenu-img-dead">
+          <img class="card-img-top img-dead" src="integration_maquette_finale/gimli.png" alt=""/>
+        </div>
+        
+
+        <p class=" dead">dead</p>
+
+        <div class="card-body card-body-img">
+          <h5 class="card-title card-title-img title-dead">gimli</h5>
+          <p class="card-text">a dwarf, with a bear and an axe...</p>
+        </div>
+
+      </div>
+    </div>
+  <!-- <div class="row d-flex justify-content-around policepb container">
+    <div class="card">
       <img class="card-img-top" src="https://i.pinimg.com/originals/43/37/b0/4337b0de83726e81eb5a6a37c1e6b309.jpg" alt=""/>
-      <p class="reward">Reward 1000 gold coins</p>
+      <p class="reward">reward 1000 gold coins</p>
       <div class="card-body">
         <h5 class="card-title">The Wizard</h5>
         <p class="card-text">Small description...</p>
       </div>
     </div>
-    <div class="card col-lg-4 col-md-5 col-sm-10">
+    <div class="card">
         <img class="card-img-top img-dead" src="https://66.media.tumblr.com/62ab2289f34faaf59457687965b41c5e/tumblr_o0xngsKhFc1qfti5wo1_500.jpg" alt=""/>
         <p class="dead">DEAD</p>
         <div class="card-body">
           <h5 class="card-title">Hobit #3</h5>
           <p class="card-text">Small description...</p>
         </div>
-      </div>
-    <div class="card col-lg-4 col-md-5 col-sm-10">
+    </div>
+    <div class="card">
       <img class="card-img-top" src="https://www.meme-arsenal.com/memes/8f52a98a6c1706394bb779a0d0cd80c6.jpg" alt=""/>
       <p class="reward">Reward 250 gold coins</p>
       <div class="card-body">
@@ -100,9 +189,9 @@
         <p class="card-text">Small description...</p>
       </div>
     </div>
-  </div>
+  </div> -->
 </section>
-<hr/>
+
 <section>
   <h2 class="row" id ="reward">
     I have captured one of them, how to get my reward ?
@@ -116,7 +205,7 @@
         <button >Contact us</button> 
       </p>
     </div>
-  </p>
+  
     
   <img class="col-4" src="https://www.coincity.com.au/3667-thickbox_default/pirate-gold-metal-doubloon-pieces-of-eight-each.jpg" alt=""/>
   </div>
