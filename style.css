@@ -236,7 +236,7 @@ footer li {
     left : 80px;
 }
 .card-body .title-dead{
-    left: 120px;
+    left: 100px;
     text-decoration: line-through rgba(255, 102, 0, 0.596); 
 }
 
