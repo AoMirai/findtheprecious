@@ -111,7 +111,7 @@ footer.row.justify-content-around p.col-3 .liengris, .separateur{
     font-weight: bold;
     font-size: 16px;
 }
-.navbar .navbar-nav .nav-item .liengris:hover{
+.navbar .navbar-nav .nav-item .liengris:hover, .navbar .navbar-nav .nav-item .liengris.active{
     border-bottom: white 3px solid;
 }
 .separateur{
